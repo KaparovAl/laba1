@@ -30,3 +30,13 @@ public:
 	}
 
 };
+
+class CompressorStation {
+public:
+	std::string name;
+	int num_workshops;
+	int num_workshops_in_operation;
+	double efficiency;
+	CompressorStation(const std::string& n, int workshops, int workshops_in_operation, double eff) :
+		name(n), num_workshops(workshops), num_workshops_in_operation(workshops_in_operation), efficiency(eff) {}
+};
