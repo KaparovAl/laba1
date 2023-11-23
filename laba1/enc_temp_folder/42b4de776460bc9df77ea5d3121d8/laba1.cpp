@@ -19,7 +19,7 @@ public:
 	}
 
 	void display() const {
-		std::cout << "Pipe: " << name << ", Length: " << length << "км, Диаметр " << diameter << " mm, ";
+		std::cout << "Pipe: " << name << ", Length: " << length << " км, Диаметр: " << diameter << " mm, ";
 		if (under_repair) {
 			std::cout << "under repair";
 		}

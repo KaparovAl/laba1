@@ -1,0 +1,10 @@
+Pipe
+kaparov
+3
+-1
+0
+Station
+ada
+3
+2
+10
